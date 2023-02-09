@@ -1,0 +1,43 @@
+.containerProyectos{
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(92, 92, 240);
+    position: relative;
+}
+
+.volver{
+    background: rgb(255, 255, 255);
+      border-radius: 999px;
+      box-shadow: #5E5DF0 0 10px 20px -10px;
+      font-size: 20px;
+      box-sizing: border-box;
+      color: #5E5DF0;
+      cursor: pointer;
+      font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+      font-weight: 700;
+      line-height: 24px;
+      opacity: 1;
+      outline: 0 solid transparent;
+      padding: 8px 18px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: fit-content;
+      word-break: break-word;
+      border: 0;
+      text-decoration: none;
+      transition: all .5s;
+      transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+      position: absolute;
+      top: 5vh;
+      left: 20vh;
+}
+
+.volver:hover {
+    border-radius: 999px;
+    box-shadow: #3b3a3a 0 10px 20px -10px;
+    padding: 15px 5px;
+    background-color: #ffffff;
+    opacity: 1;
+    color: #5E5DF0;
+}

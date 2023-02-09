@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+
+.containerBanner {
+    width: 100%;
+    height: 90vh;
+    /* background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1800' height='900' preserveAspectRatio='none' viewBox='0 0 1800 900'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1059%26quot%3b)' fill='none'%3e%3cpath d='M1356.0367597610175 516.7730749215855L1545.287235408216 368.9143984888698 1397.4285589755004 179.6639228416712 1208.1780833283017 327.52259927438695z' fill='rgba(92%2c 92%2c 240%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M-112.48 429.69 a285.16 285.16 0 1 0 570.32 0 a285.16 285.16 0 1 0 -570.32 0z' fill='rgba(92%2c 92%2c 240%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M589.86 810.09 a201.72 201.72 0 1 0 403.44 0 a201.72 201.72 0 1 0 -403.44 0z' fill='rgba(92%2c 92%2c 240%2c 0.4)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1330.7621360038181 210.89364862836717L1101.7441961561603 136.48120918118025 1027.3317567089734 365.49914902883796 1256.3496965566312 439.9115884760249z' fill='rgba(92%2c 92%2c 240%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M1418.6459456290702 582.7370745132557L1341.0487976335512 749.1446954014506 1507.456418521746 826.7418433969696 1585.0535665172652 660.3342225087747z' fill='rgba(92%2c 92%2c 240%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M521.3519645747407 480.22779192899475L596.7272462359953 600.8534578076948 717.3529121146953 525.4781761464403 641.9776304534407 404.85251026774023z' fill='rgba(92%2c 92%2c 240%2c 0.4)' class='triangle-float3'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1059'%3e%3crect width='1800' height='900' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    background-attachment: fixed; */
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoBanner {
+    width: 120vh;
+    height: 60vh;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    ;
+}
+
+.imgPortafolio {
+    width: 280px;
+    height: 300px;
+    border-radius: 200px;
+    margin: 20px;
+}
+
+.cesarNarvaez {
+
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+.frontend {
+    font-family: 'Sarabun', sans-serif;
+    font-size: 3vh;
+}
+
+.spaceinvader {
+    /* Modify size here: */
+    --block-size: 5px;
+
+    box-shadow: 0 0 0 var(--block-size) rgb(92, 92, 240),
+        0 var(--block-size) 0 var(--block-size) rgb(92, 92, 240),
+        calc(var(--block-size) * -2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) rgb(92, 92, 240),
+        calc(var(--block-size) * 2.5) calc(var(--block-size) * 1.5) 0 calc(var(--block-size) * .5) rgb(92, 92, 240),
+        calc(var(--block-size) * -3) calc(var(--block-size) * -3) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 3) calc(var(--block-size) * -3) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -2) calc(var(--block-size) * -2) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 2) calc(var(--block-size) * -2) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -3) calc(var(--block-size) * -1) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -2) calc(var(--block-size) * -1) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 2) calc(var(--block-size) * -1) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 3) calc(var(--block-size) * -1) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -4) 0 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -3) 0 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 3) 0 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 4) 0 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -5) var(--block-size) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -4) var(--block-size) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 4) var(--block-size) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 5) var(--block-size) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -5) calc(var(--block-size) * 2) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 5) calc(var(--block-size) * 2) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -5) calc(var(--block-size) * 3) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -3) calc(var(--block-size) * 3) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 3) calc(var(--block-size) * 3) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 5) calc(var(--block-size) * 3) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -2) calc(var(--block-size) * 4) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * -1) calc(var(--block-size) * 4) 0 0 rgb(92, 92, 240),
+        var(--block-size) calc(var(--block-size) * 4) 0 0 rgb(92, 92, 240),
+        calc(var(--block-size) * 2) calc(var(--block-size) * 4) 0 0 rgb(92, 92, 240);
+    background: rgb(92, 92, 240);
+    width: var(--block-size);
+    height: var(--block-size);
+    overflow: hidden;
+    display: block;
+    margin-left: 35vh;
+    margin-top: -3vh;
+}

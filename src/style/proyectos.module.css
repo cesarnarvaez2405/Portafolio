@@ -1,0 +1,90 @@
+.containerProyectos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 60vh;
+    background-color: #5c5cf0;
+}
+
+.tituloContainer {
+
+    background-color: rgb(92, 92, 240);
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+}
+
+.tituloProyectos {
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+}
+
+.containerList{
+    background-color: #ffffff;
+    width: 40vh;
+    height: 52vh;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.70);
+    -webkit-backdrop-filter: blur(13px);
+    backdrop-filter: blur(13px);
+    display: flex;
+    justify-content: center;
+    box-shadow: #3b3a3a 0 10px 20px -10px;
+    align-items: stretch;
+    padding: 10px;
+
+}
+
+.tituloProyecto{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.descripcionProyecto{
+    text-align: center;
+    width: 200px;
+    text-align: justify;
+}
+
+.containerBotones{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttom{
+    background: rgb(92, 92, 240);
+      border-radius: 999px;
+      box-shadow: #5E5DF0 0 10px 20px -10px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+      font-weight: 700;
+      line-height: 24px;
+      opacity: 1;
+      outline: 0 solid transparent;
+      padding: 8px 18px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      width: fit-content;
+      word-break: break-word;
+      border: 0;
+      text-decoration: none;
+      transition: all .5s;
+      transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+}
+
+.buttom:hover {
+    border-radius: 999px;
+    box-shadow: #3b3a3a 0 10px 20px -10px;
+    padding: 15px 5px;
+    background-color: #ffffff;
+    opacity: 1;
+    color: #5E5DF0;
+}

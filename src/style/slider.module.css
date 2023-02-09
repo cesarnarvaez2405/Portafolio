@@ -1,0 +1,38 @@
+.img {
+    position: relative;
+    right: -8vh;
+    bottom: 10px;
+    width: 195px;
+    height: 250px;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+    cursor: pointer;
+}
+
+.img:hover {
+    rotate: 20deg;
+    scale: 0.8;
+
+}
+
+.carousel {
+    position: none;
+
+}
+
+.img4 {
+    position: relative;
+    right: -8vh;
+    bottom: 10px;
+    width: 195px;
+    height: 250px;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+    cursor: pointer;
+}
+
+.img4:hover {
+    rotate: 180deg;
+    scale: 0.8;
+
+}
