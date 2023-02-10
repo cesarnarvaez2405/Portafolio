@@ -1,6 +1,6 @@
 import React from 'react'
 import style from '../style/banner.module.css'
-import image from "../Content/imgPortafolio.jpeg";
+import image from "./imgPortafolio.jpeg";
 
 export const BannerPortafolio = () => {
     return (
