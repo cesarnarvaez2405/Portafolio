@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import style from '../style/menu.module.css'
 import 'animate.css';
-import pdf from '../Content/HV-CesarNarvaez.pdf'
+import pdf from '../Content/HojaDeVida-CesarNarvaez.pdf'
 
 
 export const Menu = () => {
