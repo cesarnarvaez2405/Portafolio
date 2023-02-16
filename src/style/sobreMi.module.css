@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.4); 
     border: 1px solid rgba(255, 255, 255, 0.25);
     border-radius: 30px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -33,13 +33,17 @@
     color: black;
 }
 
-@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
-    .conteinerContenido {
-      background-color: rgba(255, 255, 255, .5);
-      -webkit-backdrop-filter: blur(2em);
-      backdrop-filter: blur(2em);
-    }
+@supports (backdrop-filter: none) {
+	.conteinerContenido{
+		/* backdrop-filter: blur(3rem); */
+	}
+}
+
+@supports not (backdrop-filter: none) {
+  .conteinerContenido {
+    /* background-image: blurred-hero.png; */
   }
+}
 
 .shape {
 
