@@ -8,10 +8,11 @@ export const Proyectos = () => {
     defineElement(lottie.loadAnimation);
 
     const mystyle = {
-        width: "200px",
-        height: "200px",
+        width: "150px",
+        height: "150px",
         cursor: "pointer",
-        colors: "primary:#121331,secondary:#5c5cf0"
+        colors: "primary:#121331,secondary:#5c5cf0",
+        left: "30px"
     };
 
 
