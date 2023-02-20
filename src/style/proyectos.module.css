@@ -90,3 +90,20 @@
     opacity: 1;
     color: #5E5DF0;
 }
+
+@media(max-width:540px){
+
+    .containerProyectos{
+        display: grid;
+        height: auto;
+        padding: 40px 40px;
+    }
+    .containerList{
+        margin-bottom: 30px;
+    }
+    .tituloContainer{
+        padding: 20px;
+        padding-top: 15vh;
+    }
+
+}
