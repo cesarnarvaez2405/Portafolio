@@ -152,5 +152,37 @@
 
   }
 
+  @media(max-width: 540px){
+    .ContenedorMenu{
+        display: flex;
+    }
+    .Elemento2Menu{
+        margin-left: 0px;
+        margin-bottom: 10px;
+        font-size: 18PX;
+    }
+    .DescargarPortafolio{
+        font-size: 18PX;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .InicioMenu{
+        font-size: 18PX;
+        margin-left: 0px;
+        margin-bottom: 10px;
+
+    }
+    .ElementosMenu{
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        
+    }
+
+
+}
+
 
 
