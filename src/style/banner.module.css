@@ -83,3 +83,37 @@
     margin-left: 35vh;
     margin-top: -3vh;
 }
+
+@media(max-width: 540px) {
+
+    .containerBanner {
+        width: 100%;
+    }
+
+    .infoBanner {
+        display: grid;
+        align-content: space-between;
+        justify-items: center;
+        width: 100%;
+
+    }
+    .imgPortafolio{
+        margin-bottom: 10vh;
+    }
+
+    .cesarNarvaez {
+        text-align: center;
+    }
+
+    .frontend {
+        text-align: center;
+    }
+
+    .spaceinvader {
+        margin-left: 22vh;
+        margin-top: 3vh;
+
+    }
+
+
+}
