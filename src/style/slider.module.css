@@ -36,3 +36,30 @@
     scale: 0.8;
 
 }
+
+@media (max-width: 540px) {
+
+    .img {
+        display: flex;
+        right: -2vh;
+        bottom: 10px;
+        width: 195px;
+        height: 100%;
+        transition: all .5s;
+        transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+        cursor: pointer;
+    }
+
+    .img4 {
+        position: relative;
+        right: -2vh;
+        bottom: 10px;
+        width: 195px;
+        height: 100%;
+        transition: all .5s;
+        transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+        cursor: pointer;
+    }
+
+
+}

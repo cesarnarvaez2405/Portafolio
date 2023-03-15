@@ -37,8 +37,9 @@ export const SobreMi = () => {
                         </div>
                     </div>
                 </div>
-                <div className="animate__animated animate__fadeInRight">
-                    <div className={style.conteinerMySkills}>
+                <div className={style.conteinerMySkills}>
+                    <div className="animate__animated animate__fadeInRight">
+
                         <h1 className={style.titleMySkills}>My skills</h1>
                         <Slider />
                     </div>

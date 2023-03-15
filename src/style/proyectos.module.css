@@ -34,7 +34,6 @@
     box-shadow: #3b3a3a 0 10px 20px -10px;
     align-items: stretch;
     padding: 10px;
-    backdrop-filter: blur(13px);
 
 }
 
