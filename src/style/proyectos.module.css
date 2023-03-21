@@ -1,16 +1,16 @@
-.containerProyectos {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+.containerProyectos{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     width: 100%;
-    height: 60vh;
+    height: 113vh;
     background-color: #5c5cf0;
+    justify-items: center;
+    grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .tituloContainer {
-
     background-color: rgb(92, 92, 240);
-    padding-top: 15vh;
+    padding: 8vh;
     display: flex;
     justify-content: center;
 }
@@ -21,64 +21,98 @@
     font-weight: bold;
     color: #ffffff;
     margin: 0;
+
 }
 
-.containerList{
-    background-color: #ffffff;
-    width: 40vh;
-    height: 52vh;
+.containerList {
+    background: #474bff;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.70);
-    display: flex;
-    justify-content: center;
+    /* background: rgba(255, 255, 255, 0.70); */
+    display: grid;
+    grid-template-rows: repeat(8, minmax(0, 1fr));
     box-shadow: #3b3a3a 0 10px 20px -10px;
-    align-items: stretch;
     padding: 10px;
+    height: 90%;
+    width: 20rem;
+    grid-column: span 1 / span 1;
 
 }
 
-.tituloProyecto{
-    text-align: center;
+.infoContent {
+    display: grid;
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+    grid-row: span 7 / span 7;
+    justify-items: center;
+    background-color: #FFFFFF;
+    margin-bottom: 30px;
+    border-radius: 25% 25% 25% 25% / 21% 25% 25% 0%;;
+
+}
+
+.gifAnimation {
+    grid-row: span 1 / span 1;
+    display: grid;
+    align-items: center;
+}
+
+.tituloInfoProyecto {
+    grid-row: span 1 / span 1;
+    display: grid;
+    align-items: center;
+}
+
+.tituloProyecto {
     font-size: 30px;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
-.descripcionProyecto{
+.descripcionInfoProyecto {
+    grid-row: span 2 / span 2;
+    display: grid;
+    align-items: center;
+}
+
+.descripcionProyecto {
     text-align: center;
     font-size: 16px;
-    width: 200px;
+    width: 100%;
+    padding: 30px;
     text-align: justify;
-    margin-bottom: 2rem;
 }
 
-.containerBotones{
+.redirectContent {
+    grid-row: auto;
+
+}
+
+
+.containerBotones {
     display: flex;
     justify-content: space-around;
 }
 
-.buttom{
+.buttom {
     background: rgb(92, 92, 240);
-      border-radius: 999px;
-      box-shadow: #5E5DF0 0 10px 20px -10px;
-      box-sizing: border-box;
-      color: #FFFFFF;
-      cursor: pointer;
-      font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
-      font-weight: 700;
-      line-height: 24px;
-      opacity: 1;
-      outline: 0 solid transparent;
-      padding: 8px 18px;
-      user-select: none;
-      -webkit-user-select: none;
-      touch-action: manipulation;
-      width: fit-content;
-      word-break: break-word;
-      border: 0;
-      text-decoration: none;
-      transition: all .5s;
-      transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;
+    text-decoration: none;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
 }
 
 .buttom:hover {
@@ -90,17 +124,19 @@
     color: #5E5DF0;
 }
 
-@media(max-width:540px){
+@media(max-width:540px) {
 
-    .containerProyectos{
+    .containerProyectos {
         display: grid;
         height: auto;
         padding: 40px 40px;
     }
-    .containerList{
+
+    .containerList {
         margin-bottom: 30px;
     }
-    .tituloContainer{
+
+    .tituloContainer {
         padding: 20px;
         padding-top: 15vh;
     }
