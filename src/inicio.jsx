@@ -6,11 +6,13 @@ import style from './style/inicio.module.css'
 import { SobreMi } from './Utilities/sobreMi'
 import { Slider } from './Utilities/slider'
 import { Proyectos } from './Utilities/proyectos'
-
+import { ScrollToTop } from './scrollToTop'
 
 export const Inicio = () => {
     return (
         <>
+
+            <ScrollToTop />
 
             <div className='MenuPortafolio'>
                 <Menu />

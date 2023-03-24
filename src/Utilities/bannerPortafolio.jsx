@@ -9,7 +9,7 @@ export const BannerPortafolio = () => {
 
         <>
             <div className={style.containerBanner}>
-                <div class="animate__animated animate__fadeInDown" className={style.container}>
+                <div className= {`${style.container} ${"animate__animated animate__fadeInDown"}`}>
                     <div className={style.infoBanner}>
                         <div className={style.imageBanner}>
                             <img src={image} alt="Imagen Portafolio" className={style.imgPortafolio} />
