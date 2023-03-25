@@ -12,5 +12,34 @@
     background-color: #ffffff;
     color: #000000;
     cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+}
 
+.topBtnStyle:hover{
+    scale: 1.3;
+
+}
+
+.botonHv{
+    position: fixed;
+    bottom: 15px;
+    right: 80px;
+    
+}
+
+.hvStyle{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000;
+    cursor: pointer;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(.29, 1.01, 10, -0.68);
+}
+
+.hvStyle:hover{
+    scale: 1.3;
 }
