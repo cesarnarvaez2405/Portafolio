@@ -21,17 +21,19 @@ export const Inicio = () => {
     }, [])
     
     // Estilo para agregar en cada div o contenedor
-    // style={{transform: `translateY(-${offsetY * 0.4}px)`}}
+
+    
+    
 
     return (
         <>
 
             <ScrollToTop />
 
-            <div className='MenuPortafolio'  >
+            <div className='MenuPortafolio'   >
                 <Menu />
             </div>
-            <div className={style.BannerPortafolio}  >
+            <div className={style.BannerPortafolio} style={{transform: `translateY(${offsetY * 0.2}px)`}}   >
                 <BannerPortafolio />
             </div>
             <div className={style.sobreMi} >
