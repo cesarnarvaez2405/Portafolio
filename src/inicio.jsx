@@ -22,7 +22,7 @@ export const Inicio = () => {
     
     // Estilo para agregar en cada div o contenedor
 
-    
+    // style={{transform: `translateY(${offsetY * 0.2}px)`}}
     
 
     return (
@@ -33,7 +33,7 @@ export const Inicio = () => {
             <div className='MenuPortafolio'   >
                 <Menu />
             </div>
-            <div className={style.BannerPortafolio} style={{transform: `translateY(${offsetY * 0.2}px)`}}   >
+            <div className={style.BannerPortafolio}    >
                 <BannerPortafolio />
             </div>
             <div className={style.sobreMi} >

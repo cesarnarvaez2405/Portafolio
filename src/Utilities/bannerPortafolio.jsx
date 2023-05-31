@@ -12,9 +12,9 @@ export const BannerPortafolio = () => {
             <div className={style.containerBanner}>
                 <div className={`  ${"animate__animated animate__fadeInDown"} ${style.container}`}>
                     <div className={style.styleBanner}>
-                        {/* <img src={image} alt="Imagen Portafolio" className={style.imgPortafolio} /> */}
+                        <img src={image} alt="Imagen Cesar Andres Narvaez" className={style.imgPortafolio} />
                         {/* <img src={require('../Content/imgPortafolio.JPEG')} className= {style.imgPortafolio} alt="Imagen Portafolio"  /> */}
-                        <Spline scene="https://prod.spline.design/oK-OtIYPKZthSX7U/scene.splinecode" />
+                        {/* <Spline scene="https://prod.spline.design/oK-OtIYPKZthSX7U/scene.splinecode" /> */}
                     </div>
                     <div className={style.textoBanner}>
                         <h1 className={style.cesarNarvaez}>Soy Cesar Narvaez</h1>

@@ -32,8 +32,12 @@
 }
 
 .styleBanner{
+    display: flex;
     height: 100%;
     grid-column: span 2 / span 2;
+    justify-content: right;
+    align-items: center;
+    padding-right: 100px;
 }
 
 .cesarNarvaez {
