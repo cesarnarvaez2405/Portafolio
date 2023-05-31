@@ -166,14 +166,6 @@
         color: white;
     } */
 
-    .conteiner {
-        background-image: url("../Content/wave-haikei.svg");
-        background-position: bottom;
-        display: grid;
-        grid-template-rows: fit-content(50%);
-        justify-items: center;
-        padding: 20px;
-    }
 
     .conteinerSobreMi {
         width: 80%;
@@ -181,7 +173,7 @@
         padding-bottom: 10px;
 
     }
-    .conteinerContenido {
+    /* .conteinerContenido {
         width: 100%;
         height: 70%;
     }
@@ -200,7 +192,7 @@
 
     .titleMySkills {
         font-size: 30px;
-    }
+    } */
 
 
 
