@@ -11,11 +11,12 @@ export const Proyectos = () => {
     defineElement(lottie.loadAnimation);
 
     const mystyle = {
-        width: "150px",
-        height: "150px",
+        width: "135px",
+        height: "135px",
         cursor: "pointer",
         colors: "primary:#121331,secondary:#5c5cf0",
     };
+
 
 
 
