@@ -82,28 +82,6 @@
 
 @media (max-width: 540px) {
 
-    /* .conteiner {
-        display: grid;
-        align-content: space-around;
-        justify-items: center;
-        background: rgb(92, 92, 240);
-    }
-
-    .conteinerSobreMi {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .conteinerContenido {
-        width: 42vh;
-        height: 50vh;
-        color: white;
-    }
-    .titleMySkills{
-        color: white;
-    } */
-
     .conteiner {
         background-image: url("../Content/wave-haikei.svg");
         background-position: bottom;
@@ -144,29 +122,6 @@
 
 @media (max-width: 1400px) {
 
-    /* .conteiner {
-        display: grid;
-        align-content: space-around;
-        justify-items: center;
-        background: rgb(92, 92, 240);
-    }
-
-    .conteinerSobreMi {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .conteinerContenido {
-        width: 42vh;
-        height: 50vh;
-        color: white;
-    }
-    .titleMySkills{
-        color: white;
-    } */
-
-
     .conteinerSobreMi {
         display: flex;
         justify-content: center;
@@ -181,19 +136,6 @@
         padding: 40px;
     }
 
-     /* .parrafo {
-        text-align: justify;
-        font-size: 13px;
-    }
-
-    .titulo {
-        font-weight: bold;
-        font-size: 30px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    } */
-
-
     .conteinerMySkills {
         width: 25%;
         background: rgba(255, 255, 255, 0.8);
@@ -203,8 +145,5 @@
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     
     }
-
-
-
 
 }
